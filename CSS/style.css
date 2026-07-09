@@ -1,0 +1,149 @@
+/* =============================================================
+   Portfolio Website CSS
+   Author : Lehlogonolo Mokadikwa
+   Project : Personal Portfolio Website
+   Version : 1.0.0
+
+   This stylesheet contains the global styles,
+   design system and reusable components.
+=============================================================*/
+
+/* =============================================================
+    GOOGLE FONTS
+=========================================================*/
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family= Outfit:wght@400;500;600;700;800&display=swap');
+
+/* ========================================================
+
+    CSS RESET
+
+=========================================================*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* =============================================================
+    DESIGN SYSTEM
+=============================================================*/
+
+:root {
+
+    /* Colors */
+
+    --background: #0A192F;
+    --surface: #112240;
+    --card: #1E293B;
+
+    --primary: #2563EB;
+    --primary-hover: #3B82F6;
+
+    --success: #10B981;
+    --warning: #F59E0B;
+
+    --white: #F8FAFC;
+    --text: #E2E8F0;
+    --text-secondary: #94A3B8;
+
+    --border: #334155;
+
+    /* Fonts */
+
+    --heading-font: 'Outfit', sans-serif;
+    --body-font: 'Inter', sans-serif;
+
+    /* Spacing */
+
+    --space-xs: 8px;
+    --space-sm: 16px;
+    --space-md: 24px;
+    --space-lg: 32px;
+    --space-xl: 48px;
+    --space-2xl: 64px;
+
+    /* Border Radius */
+
+    --radius-sm: 8px;
+    --radius-md: 12px;
+    --radius-lg: 18px;
+
+    /* Shadows */
+
+    --shadow-small: 0 4px 10px rgba(0, 0, 0, .15);
+    --shadow-medium: 0 8px 25px rgba(0, 0, 0, .25);
+
+}
+
+/*==============================================================
+    GLOBAL STYLES
+==============================================================*/
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background: var(--background);
+    color: var(--text);
+    font-family: var(--body-font);
+    line-height: 1.6;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+ul {
+    list-style: none;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+/*==============================================================
+    HEADER
+==============================================================*/
+
+header {
+    width: 100%;
+    padding: 20px 8%;
+}
+
+/*==============================================================
+    NAVIGATION
+==============================================================*/
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-family: var(--heading-font);
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: var(--white);
+    letter-spacing: 2px;
+}
+
+nav ul {
+    display: flex;
+    gap: 2rem;
+}
+
+nav a {
+    color: var(--text);
+    font-weight: 500;
+    transition: .3s ease;
+}
+
+nav a:hover {
+    color: var(--primary);
+}
