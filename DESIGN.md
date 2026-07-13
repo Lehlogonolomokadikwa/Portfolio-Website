@@ -52,3 +52,24 @@ Key properties:
 - justify-content: space-between
 - align-items: center
 - gap: 2rem
+
+## Personal Brand Philosophy
+
+This portfolio is designed to communicate more than technical skills.
+
+It reflects a mindset of continuous learning, curiosity, and growth.
+
+The central message of the portfolio is:
+
+> "Curiosity opened the door. Technology became the journey."
+
+Every section of the website supports this idea:
+
+- The Hero introduces the mindset.
+- The About section tells the story.
+- The Skills section shows what is being explored.
+- The Projects section demonstrates practical application.
+- The Certifications section reflects continuous learning.
+- The Contact section invites future opportunities.
+
+The goal is not to present the image of an expert, but to honestly represent an aspiring technology professional who is committed to learning, building, and growing throughout their career.

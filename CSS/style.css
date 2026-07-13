@@ -237,3 +237,140 @@ nav a:hover {
     background: var(--primary);
     color: var(--white);
 }
+
+/*==========================================================
+   ABOUT SECTION
+==========================================================*/
+.about {
+
+    padding: 100px 8%;
+
+}
+
+.container {
+
+    width: min(1100px, 100%);
+    margin: 0 auto;
+
+}
+
+.section-title {
+
+    font-family: var(--heading-font);
+
+    font-size: 2.5rem;
+
+    color: var(--white);
+
+    text-align: center;
+
+    margin-bottom: 15px;
+
+}
+
+.section-tagline {
+
+    text-align: center;
+
+    color: var(--primary);
+
+    font-size: 1.2rem;
+
+    margin-bottom: 30px;
+
+    font-style: italic;
+
+}
+
+.about-intro {
+
+    max-width: 850px;
+
+    margin: 0 auto 60px;
+
+    text-align: center;
+
+    color: var(--text-secondary);
+
+    line-height: 1.8;
+
+    font-size: 1.05rem;
+
+}
+
+.about-grid {
+
+    display: grid;
+
+    grid-template-columns: repeat(2, 1fr);
+
+    gap: 30px
+}
+
+.about-card {
+
+    background: var(--card);
+
+    padding: 30px;
+
+    border-radius: var(--radius-lg);
+
+    border: 1px solid var(--border);
+
+    transition: .3s ease;
+
+}
+
+.about-card:hover {
+
+    transform: translateY(-6px);
+
+    border-color: var(--primary);
+
+}
+
+.about-card h3 {
+
+    color: var(--primary);
+
+    margin-bottom: 20px;
+
+    font-size: 1.3em;
+
+}
+
+.about-card p {
+
+    color: var(--text-secondary);
+
+    line-height: 1.8;
+
+    margin-bottom: 12px;
+
+}
+
+.about-card ul {
+
+    list-style: none;
+
+    padding: 0;
+
+}
+
+.about-card li {
+
+    color: var(--text-secondary);
+
+    margin: 12px;
+
+}
+
+.about-card li::before {
+
+    content: "▹ ";
+
+    color: var(--primary);
+
+    font-weight: bold;
+
+}
